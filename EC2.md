@@ -71,6 +71,18 @@ Aqui eu vou escolher o Sistema Operacional da Red Hat. Mas poderia ser qualquer 
 
  <img width="1687" height="809" alt="image" src="https://github.com/user-attachments/assets/aa405333-16d9-4f2f-b0ad-4847bbd59116" />
 
+ <img width="1913" height="733" alt="image" src="https://github.com/user-attachments/assets/943674d9-c730-43ce-a061-ed59220ed438" />
+
+ <img width="1683" height="477" alt="image" src="https://github.com/user-attachments/assets/baea21cd-58e5-49aa-a4e5-0a6767cfcd8b" />
+
+ <img width="1621" height="451" alt="image" src="https://github.com/user-attachments/assets/3ff9cf89-bd83-4f8d-83cf-6310a020cc42" />
+
+ <img width="1621" height="451" alt="image" src="https://github.com/user-attachments/assets/939879d1-a8eb-4298-a1e7-dbe556efcdcf" />
+
+
+
+
+
 
 
 
