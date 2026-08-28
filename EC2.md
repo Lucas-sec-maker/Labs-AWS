@@ -90,9 +90,14 @@ Aqui eu vou escolher o Sistema Operacional da Red Hat. Mas poderia ser qualquer 
 
  <img width="1913" height="733" alt="image" src="https://github.com/user-attachments/assets/943674d9-c730-43ce-a061-ed59220ed438" />
 
+
+  Aqui mostra algumas informações da instância e o estado dela em que ela se encontra.
+
  <img width="1683" height="477" alt="image" src="https://github.com/user-attachments/assets/baea21cd-58e5-49aa-a4e5-0a6767cfcd8b" />
 
  <img width="1621" height="451" alt="image" src="https://github.com/user-attachments/assets/3ff9cf89-bd83-4f8d-83cf-6310a020cc42" />
+
+ <img width="1076" height="627" alt="image" src="https://github.com/user-attachments/assets/387213ec-8617-4638-bcbc-1b0d00342d3f" />
 
  <img width="1621" height="451" alt="image" src="https://github.com/user-attachments/assets/939879d1-a8eb-4298-a1e7-dbe556efcdcf" />
 
