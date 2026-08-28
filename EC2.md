@@ -74,9 +74,19 @@ Aqui eu vou escolher o Sistema Operacional da Red Hat. Mas poderia ser qualquer 
 
 É possível escolher diversos tipos de Sistemas Operacionais.Vai depender da sua necessidade e do problema que quer resolver.
 
+
  <img width="1723" height="780" alt="image" src="https://github.com/user-attachments/assets/36435bc6-2b16-4bde-9530-0be2c150b475" />
 
+ Aqui, em configurações de rede, é onde vou configurar a sub-rede e a VPC da instância. Ou seja, vou atribuir um endereço de IP para ela(sub-rede)
+ e um "terreno" privado para ela dentro da AWS (Virtual Private Cloud).
+
+ Além disso, em configurações avançadas, foi ativado o modo de proteção contra encerramento de instância, que ser para preserva-la em caso de tentativa de 
+ encerramento da mesma por algum tipo de equivoco ou acidente
+ 
+
  <img width="1687" height="809" alt="image" src="https://github.com/user-attachments/assets/aa405333-16d9-4f2f-b0ad-4847bbd59116" />
+
+ A imagem abaixo exibe com sucesso a criação de uma instância.
 
  <img width="1913" height="733" alt="image" src="https://github.com/user-attachments/assets/943674d9-c730-43ce-a061-ed59220ed438" />
 
