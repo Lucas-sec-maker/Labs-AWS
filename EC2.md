@@ -69,6 +69,10 @@ Aqui eu vou escolher o Sistema Operacional da Red Hat. Mas poderia ser qualquer 
 
 
 ### Escolhendo o tipo da instância.Ou seja, o quão forte ela vai ser.
+    - Aqui vai o nome da máquina virtual (instância)
+    - O sistema operacional (no meu caso, o Red Hat)
+
+É possível escolher diversos tipos de Sistemas Operacionais.Vai depender da sua necessidade e do problema que quer resolver.
 
  <img width="1723" height="780" alt="image" src="https://github.com/user-attachments/assets/36435bc6-2b16-4bde-9530-0be2c150b475" />
 
