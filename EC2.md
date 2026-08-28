@@ -53,7 +53,7 @@ onde os serviços estão hospedados) e traz até você.
 ### 3 - SDK's
 
 Se for um programador, muito provavelmente vai saber do que estou falando. Mas,em resumo,esse acesso serve quando você está escrevendo seu programa ou site e precisa de algum serviço da AWS no meio de tudo isso
-interagindo direto com o código que está sendo contruído
+interagindo direto com o código que está sendo construído
 
 <img width="1246" height="705" alt="image" src="https://github.com/user-attachments/assets/16ab54ec-55ef-47c5-b49c-29e1858c40a2" />
 
@@ -61,13 +61,16 @@ interagindo direto com o código que está sendo contruído
 
 ## Criando a instância 
 
-Aqui é onde você vai selecionar a imagem do sistema operacional que você quer, o tipo de poder de processamento que ela vai ter e outras coisas mais.
+Aqui é onde você vai selecionar a imagem do sistema operacional que você quer, o tipo de poder de processamento que ela vai ter e outras coisas mais.Tudo isso vem em um pacote de imagem,
+que é chamado AMI (Amazon Machine Image), um modelo para criar uma máquina com vários pacotes de programas já instalados
 Ou seja, tem vários "sabores" e CPU, memória, capacidade de redes, armazenamento e outras coisas mais. É o momento que você vai "montar" o seu PC.
+
 Aqui eu vou escolher o Sistema Operacional da Red Hat. Mas poderia ser qualquer outro nesse laboratório.
 
-<img width="1723" height="780" alt="image" src="https://github.com/user-attachments/assets/36435bc6-2b16-4bde-9530-0be2c150b475" />
 
 ### Escolhendo o tipo da instância.Ou seja, o quão forte ela vai ser.
+
+ <img width="1723" height="780" alt="image" src="https://github.com/user-attachments/assets/36435bc6-2b16-4bde-9530-0be2c150b475" />
 
  <img width="1687" height="809" alt="image" src="https://github.com/user-attachments/assets/aa405333-16d9-4f2f-b0ad-4847bbd59116" />
 
