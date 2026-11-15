@@ -24,12 +24,24 @@ O objetivo é transformar a teoria do exame em prática hands-on, explorando ser
 
 ## 🎯 Domínios do Exame Cobertos
 
-Os laboratórios estão organizados de acordo com os 4 domínios da certificação:
+Os laboratórios estão organizados de acordo com domínios dentro da AWS:
 
-* **Domínio 1**: Conceitos de Nuvem (*Cloud Concepts*)
-* **Domínio 2**: Segurança e Conformidade (*Security and Compliance*)
-* **Domínio 3**: Tecnologia e Serviços Core (*Cloud Technology and Services*)
-* **Domínio 4**: Faturamento, Preços e Suporte (*Billing, Pricing, and Support*)
+## 📚 Sumário dos Laboratórios
+
+
+
+| Tópico | Laboratórios | Domínio |
+| :--- | :--- | :---: |
+| 🏛️ **Fundamentos de nuvem** | _em breve_ |  |
+| 🔐 **Identidade e acesso (IAM)** | [AWS IAM Lab — Grupos com privilégio mínimo](./aws-iam-lab/) |  |
+| 🖥️ **Computação** | [Gerenciando uma EC2](./ec2-lab/) |  |
+| 🗄️ **Armazenamento** | _em breve_ |  |
+| 🌐 **Redes** | _em breve_ |  |
+| 🛢️ **Bancos de dados** | _em breve_ |  |
+| ⚡ **Serverless** | _em breve_ |  |
+| 📈 **Monitoramento e auditoria** | _em breve_ | 2 · 3 |
+| 🛡️ **Segurança avançada** | _em breve_ |  |
+| 💰 **Custos e faturamento** | _em breve_ |  |
 
 ---
 
