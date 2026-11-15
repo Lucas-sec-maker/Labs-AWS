@@ -18,7 +18,7 @@
 
 Este repositório reúne laboratórios práticos desenvolvidos para consolidar os conceitos fundamentais da **Amazon Web Services (AWS)** abordados no exame **AWS Certified Cloud Practitioner (CLF-C02)**.
 
-O objetivo é transformar a teoria do exame em prática hands-on, explorando serviços essenciais, boas práticas de segurança (Shared Responsibility Model), arquitetura básica e gestão de custos.
+O objetivo é transformar a teoria do exame em prática hands-on, explorando serviços essenciais, boas práticas de segurança , arquitetura básica e gestão de custos.
 
 ## 📚 Sumário dos Laboratórios
 
