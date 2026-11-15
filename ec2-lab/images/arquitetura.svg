@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#232F3E"/>
+    </marker>
+    <marker id="arRed" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#D13212"/>
+    </marker>
+    <g id="person"><circle cx="0" cy="-14" r="13" fill="none" stroke-width="5"/><path d="M-26,26 C-26,2 26,2 26,26" fill="none" stroke-width="5"/></g>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="636" rx="22" fill="#FFFFFF" stroke="#E3E6EA" stroke-width="2"/>
+  <text x="40" y="52" font-size="24" font-weight="700" fill="#232F3E">Lab EC2 — Servidor web Apache com User Data e Security Group</text>
+
+  <!-- Usuário -->
+  <rect x="48" y="270" width="92" height="92" rx="10" fill="#E9EBED"/>
+  <use href="#person" transform="translate(94,320) scale(1.1)" stroke="#232F3E"/>
+  <text x="94" y="390" font-size="17" text-anchor="middle" fill="#232F3E">Usuário</text>
+  <text x="94" y="410" font-size="17" text-anchor="middle" fill="#232F3E">(navegador)</text>
+
+  <!-- AWS Cloud -->
+  <rect x="226" y="80" width="944" height="530" rx="6" fill="none" stroke="#232F3E" stroke-width="1.5"/>
+  <rect x="226" y="80" width="34" height="30" fill="#232F3E"/>
+  <path d="M236,100 a6,6 0 0 1 4,-10 a8,8 0 0 1 14,3 a5,5 0 0 1 -1,7 z" fill="#fff"/>
+  <text x="270" y="101" font-size="15" fill="#232F3E">AWS Cloud</text>
+
+  <!-- Região -->
+  <rect x="252" y="122" width="892" height="466" rx="6" fill="none" stroke="#147EBA" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <rect x="252" y="122" width="30" height="28" fill="#147EBA"/>
+  <path d="M262,144 V130 M262,130 h12 l-3,4 l3,4 h-12" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="290" y="142" font-size="15" fill="#147EBA">Região AWS</text>
+
+  <!-- VPC -->
+  <rect x="280" y="166" width="520" height="400" rx="6" fill="none" stroke="#8C4FFF" stroke-width="1.5"/>
+  <rect x="280" y="166" width="30" height="28" fill="#8C4FFF"/>
+  <rect x="288" y="174" width="14" height="12" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="318" y="186" font-size="15" fill="#8C4FFF">VPC</text>
+
+  <!-- Sub-rede pública -->
+  <rect x="306" y="206" width="468" height="340" rx="6" fill="#F2F6E8" stroke="#7AA116" stroke-width="1.5"/>
+  <rect x="306" y="206" width="30" height="28" fill="#7AA116"/>
+  <rect x="315" y="216" width="12" height="11" rx="1" fill="#fff"/><path d="M317,216 v-3 a4,4 0 0 1 8,0" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="344" y="226" font-size="15" fill="#5A7A10">Sub-rede pública</text>
+
+  <!-- Security Group -->
+  <rect x="356" y="254" width="378" height="268" rx="6" fill="none" stroke="#DD344C" stroke-width="2" stroke-dasharray="7 5"/>
+  <text x="372" y="280" font-size="15" font-weight="700" fill="#DD344C">Security Group</text>
+  <text x="372" y="300" font-size="13" fill="#545B64">Entrada: somente HTTP (TCP 80)</text>
+
+  <!-- EC2 -->
+  <rect x="499" y="326" width="92" height="92" rx="10" fill="#ED7100"/>
+  <rect x="523" y="350" width="44" height="44" rx="3" fill="none" stroke="#fff" stroke-width="4"/>
+  <rect x="535" y="362" width="20" height="20" fill="none" stroke="#fff" stroke-width="3"/>
+  <path d="M531,342 v8 M545,342 v8 M559,342 v8 M531,394 v8 M545,394 v8 M559,394 v8 M515,358 h8 M515,372 h8 M515,386 h8 M567,358 h8 M567,372 h8 M567,386 h8" stroke="#fff" stroke-width="3"/>
+  <text x="545" y="444" font-size="16" text-anchor="middle" fill="#232F3E">Instância EC2</text>
+  <text x="545" y="464" font-size="14" text-anchor="middle" fill="#545B64">Red Hat + Apache (httpd)</text>
+  <text x="545" y="482" font-size="14" text-anchor="middle" fill="#545B64">🛡️ proteção contra encerramento</text>
+
+  <!-- Tráfego -->
+  <path d="M140,330 H495" stroke="#232F3E" stroke-width="2.5" marker-end="url(#ar)"/>
+  <text x="154" y="320" font-size="13" fill="#1D8102">✔ HTTP :80</text>
+  <path d="M140,390 H352" stroke="#D13212" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arRed)"/>
+  <text x="154" y="412" font-size="13" fill="#D13212">✖ SSH :22</text><text x="154" y="428" font-size="13" fill="#D13212">e demais</text>
+
+  <!-- AMI -->
+  <rect x="930" y="196" width="92" height="92" rx="10" fill="#ED7100"/>
+  <rect x="954" y="222" width="44" height="40" rx="4" fill="none" stroke="#fff" stroke-width="4"/>
+  <path d="M960,250 h14 M960,238 h32" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="988" cy="250" r="3" fill="#fff"/>
+  <text x="976" y="312" font-size="16" text-anchor="middle" fill="#232F3E">AMI</text>
+  <text x="976" y="332" font-size="14" text-anchor="middle" fill="#545B64">Red Hat (SO base)</text>
+
+  <!-- User Data -->
+  <rect x="930" y="384" width="92" height="92" rx="10" fill="#ED7100"/>
+  <path d="M956,404 H986 L1000,418 V456 H956 Z" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M966,432 l-6,6 l6,6 M990,432 l6,6 l-6,6 M982,428 l-8,20" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  <text x="976" y="500" font-size="16" text-anchor="middle" fill="#232F3E">User Data</text>
+  <text x="976" y="520" font-size="14" text-anchor="middle" fill="#545B64">script de instalação</text>
+
+  <path d="M926,242 H820 V350 H595" fill="none" stroke="#232F3E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  <text x="872" y="232" font-size="13" text-anchor="middle" fill="#545B64">criada a partir de</text>
+  <path d="M926,430 H820 V394 H595" fill="none" stroke="#232F3E" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+  <text x="872" y="452" font-size="13" text-anchor="middle" fill="#545B64">roda no 1º boot</text>
+</svg>
